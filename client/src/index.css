@@ -1,6 +1,8 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
 @import 'tailwindcss/preflight.css' layer(base);
+@import './styles/font.css';
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -118,7 +120,9 @@
     @apply bg-background text-foreground;
   }
 }
-
+body {
+  font-family: 'DM Sans', sans-serif;
+}
 html,
 body,
 #root {
