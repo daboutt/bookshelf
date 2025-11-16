@@ -1,10 +1,12 @@
-import { BookList } from './BookList';
+import TrendingTags from '@/features/trending/components/TrendingTags';
+import BookList from './BookList';
 
-const Home = () => {
+export default function Home() {
   return (
-    <div>
+    <div className='h-full ml-8'>
+      {/* Trending tags section */}
+      <TrendingTags />
       <BookList />
     </div>
   );
-};
-export default Home;
+}

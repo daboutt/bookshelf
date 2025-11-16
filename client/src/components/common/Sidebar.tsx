@@ -37,11 +37,11 @@ export default function AppSidebar() {
   return (
     <Sidebar>
       <SidebarHeader>
-        <div className='logo ml-12 mr-auto text-primary text-3xl'>
+        <div className='logo ml-12 mr-auto mt-8 text-primary text-3xl'>
           BookShelf
         </div>
       </SidebarHeader>
-      <SidebarContent>
+      <SidebarContent className='mt-10'>
         <SidebarGroup>
           <SidebarGroupContent>
             <SidebarMenu>

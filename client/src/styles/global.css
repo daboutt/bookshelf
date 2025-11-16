@@ -1,0 +1,23 @@
+/* Hide scrollbar by default */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Show scrollbar when scrolling */
+.scrollbar-hide:hover::-webkit-scrollbar,
+.scrollbar-hide:active::-webkit-scrollbar,
+.scrollbar-hide:focus::-webkit-scrollbar {
+  display: block;
+  width: 8px;
+}
+
+.scrollbar-hide::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
